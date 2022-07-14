@@ -11,7 +11,7 @@ class MyDynamicObject : public QObject
 public:
 	explicit MyDynamicObject(QObject* parent = nullptr);
 
-	QString testValue() const { return "hello from myobject"; }
+	QString testValue() const { return "hello from my dynamic object"; }
 
 signals:
 };
